@@ -20,7 +20,7 @@ module.exports = merge(common, {
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: './src/template.html',
-      minify: false,
+      minify: true,
     }),
   ],
   module: {
